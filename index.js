@@ -17,7 +17,7 @@ bot.on('message', message => {
             'Fais dodo, Colas mon \'ptit frère\n' +
             'Fais dodo, t\'auras du lolo') }
     else if (message.content === '*help') {
-        message.channel.send('**Les commandes** : \n *ping : Pong ! \n *dodo : Comptine pour enfant \n *help : affiche les commandes \n *credit : pour les crédits \n *master : pour savoir qui est le maître ici ! \n *kill : pour tuer des gens ! \n *baguette \n *merci : pour dire merci au bot \n *bonjour : pour dire bonjour au bot\n *afk : pour se mettre afk \n *site : pour afficher le site \n*ah \n \n Bot créé par Müulsh#4726 avec l\'aide de Timeur2.0#6659') }
+        message.channel.send('**Les commandes** : \n *ping : Pong ! \n *dodo : Comptine pour enfant \n *help : affiche les commandes \n *credit : pour les crédits \n *master : pour savoir qui est le maître ici ! \n *kill : pour tuer des gens ! \n *baguette \n *merci : pour dire merci au bot \n *bonjour : pour dire bonjour au bot\n *afk (on/off): pour se mettre afk ou pour retirer son afk \n *site : pour afficher le site \n*ah \n \n Bot créé par Müulsh#4726 avec l\'aide de Timeur2.0#6659') }
     else if (message.content === '*credit') {
         message.channel.send('Bot créé par Müulsh#4726 avec l\'aide de Timeur2.0#6659') }
     else if (message.content === '*master') {
