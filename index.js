@@ -23,9 +23,7 @@ bot.on('message', message => {
     else if (message.content === '*master') {
         message.reply('Non ce n\'est pas toi le maître c\'est mwa <3') }
     else if (message.content === '*kill') {
-        message.reply('a tuer son ennemi !') }
-    else if (message.content === '*baguette') {
-        message.reply('vive les baguettes !') }
+        message.reply('a tuer son ennemi ! enfin je crois je suis que un bot moi !') }
     else if (message.content === '*merci') {
         message.reply('derien :D') }
     else if (message.content === '*afk on') {
@@ -35,17 +33,15 @@ bot.on('message', message => {
     else if (message.content === '*bonjour') {
         message.channel.send('Salut mon ami de toujours :D') }
     else if (message.content === '#onarienvu') {
-        message.channel.send('Moi je vois ... je vois une tache ! Ah merde c\'est toi désolé ...') }
-    else if (message.content === '...') {
-        message.channel.send('-_-') }
+        message.channel.send('Moi je vois ... je vois une tache ! Ah merde c\'est toi désolé ... Pourquoi tu dis que je suis méchant ? Je suis un bot moi ! C\'est mon dévelopeur qui est méchant ...') }
 else if (message.content === 'non') {
     message.channel.send('si') }
-else if (message.content === 'nan') {
-    message.channel.send('....') }
+else if (message.content === 'oui') {
+    message.channel.send('nan') }
 else if (message.content === '*site') {
-    message.channel.send('Le célèbre site de Müulsh : http://muulsh.ml/ :crown: \n Le site da Abricot Corp : http://abricotwebc.ga/') }
+    message.channel.send('Le célèbre site de Müulsh : http://muulshcorp.ml/ :crown: \n Le site da Abricot Corp : http://abricotwebc.ga/') }
 else if (message.content === '*ah') {
-    message.channel.send('***`AHHHHHHHHHHH`***') }
+    message.channel.send('**AHHH tu m\'as fait peur :o**') }
 else if (message.content === 'M. Bad Taa') {
     message.channel.send('Me revoila !!') }
 })
