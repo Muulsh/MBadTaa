@@ -59,6 +59,9 @@ bot.on('message', message => {
 
     else if (message.content === 'M. Bad Taa') {
     message.channel.send('Me revoila !!') }
+    
+    else if (message.content === '-_-') {
+    message.channel.send('...') }
 })
 
 bot.login(process.env.TOKEN)
