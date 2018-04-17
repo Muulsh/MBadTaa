@@ -19,10 +19,10 @@ bot.on('message', message => {
             'Fais dodo, t\'auras du lolo') }
     
     else if (message.content === '*help') {
-        message.channel.send('**Les commandes** : \n *ping : Pong ! \n *dodo : Comptine pour enfant \n *help : affiche les commandes \n *credit : pour les crédits \n *master : pour savoir qui est le maître ici ! \n *kill : pour tuer des gens ! \n *baguette \n *merci : pour dire merci au bot \n *bonjour : pour dire bonjour au bot\n *afk (on/off): pour se mettre afk ou pour retirer son afk \n *site : pour afficher le site \n*ah \n \n Bot créé par Müulsh#4726 avec l\'aide de Timeur2.0#6659') }
+        message.channel.send('**Les commandes** : \n *ping : Pong ! \n *dodo : Comptine pour enfant \n *help : affiche les commandes \n *credit : pour les crédits \n *master : pour savoir qui est le maître ici ! \n *kill : pour tuer des gens ! \n *baguette \n *merci : pour dire merci au bot \n *bonjour : pour dire bonjour au bot\n *afk (on/off): pour se mettre afk ou pour retirer son afk \n *site : pour afficher le site \n*ah \n \n Bot créé par <@!317968962656796674> avec l\'aide de <@!385337893553438720>') }
     
     else if (message.content === '*credit') {
-        message.channel.send('Bot créé par Müulsh#4726 avec l\'aide de Timeur2.0#6659') }
+        message.channel.send('Bot créé par <@!317968962656796674> avec l\'aide de <@!385337893553438720>') }
     
     else if (message.content === '*master') {
         message.reply('Non ce n\'est pas toi le maître c\'est mwa <3') }
@@ -59,12 +59,6 @@ bot.on('message', message => {
 
     else if (message.content === 'M. Bad Taa') {
     message.channel.send('Me revoila !!') }
-    
-    else if (message.content === '-_-') {
-    message.channel.send('...') }
-    
-    else if (message.content === '-_-') {
-    message.reply('...') }
 })
 
 bot.login(process.env.TOKEN)
