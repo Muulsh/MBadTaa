@@ -43,7 +43,7 @@ bot.on('message', message => {
         message.channel.send('Salut mon ami de toujours :D') }
     
     else if (message.content === '#onarienvu') {
-        message.channel.send('Moi je vois ... je vois une tache ! Ah merde c\'est toi désolé ... Pourquoi tu dis que je suis méchant ? Je suis un bot moi ! C\'est mon dévelopeur qui est méchant ...') }
+    message.channel.send('Moi je vois ... je vois une tache ! Ah merde c\'est toi désolé ... Pourquoi tu dis que je suis méchant ? Je suis un bot moi ! C\'est mon dévelopeur qui est méchant ...') }
 
     else if (message.content === 'non') {
     message.channel.send('si') }
@@ -62,6 +62,9 @@ bot.on('message', message => {
     
     else if (message.content === '-_-') {
     message.channel.send('...') }
+    
+    else if (message.content === '-_-') {
+    message.reply('...') }
 })
 
 bot.login(process.env.TOKEN)
